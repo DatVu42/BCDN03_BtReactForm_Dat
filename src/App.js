@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import BTBookingTicket from './BTBookingTicket/BTBookingTicket';
 import ShoesStore from './ShoesStore/ShoesStore';
 
 function App() {
   return (
     <div className="App">
-      <ShoesStore />
+      {/* <ShoesStore /> */}
+      <BTBookingTicket />
     </div>
   );
 }
