@@ -1,8 +1,8 @@
 import { combineReducers, createStore } from "redux";
-import { BaiTapDatVeReducer } from './reducers/BaiTapDatVeReducer';
+import { quanLySinhVienReducer } from './reducers/quanLySinhVienReducer';
 
 const rootReducer = combineReducers({
-    BaiTapDatVeReducer,
+    quanLySinhVienReducer
 });
 
-export const store = createStore(rootReducer);
+export const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());

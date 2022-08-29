@@ -1,12 +1,10 @@
 import './App.css';
-import BTBookingTicket from './BTBookingTicket/BTBookingTicket';
-import ShoesStore from './ShoesStore/ShoesStore';
+import BTQuanLySinhVien from './BTQLSV/BTQuanLySinhVien';
 
 function App() {
   return (
     <div className="App">
-      {/* <ShoesStore /> */}
-      <BTBookingTicket />
+      <BTQuanLySinhVien />
     </div>
   );
 }
